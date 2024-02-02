@@ -1,0 +1,55 @@
+<div class="container">
+
+    <h2 class="title">ADD GUEST</h2>
+
+
+  <form class="container-create-elements">
+    <mat-form-field >
+      <mat-label>Family Name</mat-label>
+      <textarea  name="familyName" [(ngModel)]="familyName" matInput placeholder="Ex. Fam. Gerald" required></textarea>
+    </mat-form-field>
+
+    <div>
+      <mat-form-field>
+        <mat-label>Adult</mat-label>
+        <input name="adult" [(ngModel)]="adult" matInput  type="number" >
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Children</mat-label>
+        <input matInput name="children" [(ngModel)]="children" type="number" >
+      </mat-form-field>
+    </div>
+
+    <div>
+        <div class="guest-confirmed-box">
+          <div>Confirmed</div>
+          <mat-checkbox [checked]="confirmed" name="confirmed" [(ngModel)]="confirmed" ></mat-checkbox>
+        </div>
+
+      <mat-form-field>
+        <mat-label>Invited</mat-label>
+        <mat-select name="invited" [(ngModel)]="invited">
+          <mat-option *ngFor="let answer of invitedValues" [value]="answer" >{{answer}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <mat-form-field>
+      <mat-label>Zone</mat-label>
+      <mat-select name="zone" [(ngModel)]="zone">
+        <mat-option *ngFor="let answer of zoneValues" [value]="answer" >{{answer}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Estimate</mat-label>
+      <input matInput placeholder="$" type="number" name="estimate" [(ngModel)]="estimate" >
+    </mat-form-field>
+
+    <div class="create-guest-buttons">
+      <button mat-raised-button class="create-cancel-button field-with-margin" mat-dialog-close>CANCEL</button>
+      <button mat-raised-button class="create-submit-button field-with-margin" (click)="onSubmit()" mat-dialog-close >SUBMIT</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,27 @@
+
+<div class="container">
+  <canvasjs-chart [options]="chartOptionsGuests" [styles]="{width: '100%', height:'560px'}"></canvasjs-chart>
+</div>
+<div class="container">
+  <div class="progress-bar">
+    <div class="progress-bar-container">
+      <h1 class="progress-bar-title">Wedding Invitation Status</h1>
+      <div class="progress-bar-subtitle">
+        <div>Done</div>
+        <div>Total</div>
+      </div>
+      <mat-progress-bar mode="determinate" value="{{(invitationsReceived / totalInvitations) * 100}}"></mat-progress-bar>
+      <div class="progress-bar-values">
+        <div>{{invitationsReceived}}</div>
+        <div>{{totalInvitations}}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="statistic-cost-income-container container" >
+    <canvasjs-chart [options]="chartOptionsIncome" [styles]="{width: '500px', height:'390px'}"></canvasjs-chart>
+    <canvasjs-chart [options]="chartOptionsCost" [styles]="{width: '500px', height:'390px'}"></canvasjs-chart>
+</div>
+<div class="container">
+  <canvasjs-chart [options]="chartOptionsSupplies" [styles]="{width: '100%', height:'560px'}"></canvasjs-chart>
+</div>

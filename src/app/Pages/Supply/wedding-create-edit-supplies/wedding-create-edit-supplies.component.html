@@ -1,0 +1,45 @@
+<div class="container">
+
+  <h2 class="title">ADD SUPPLY</h2>
+
+
+  <form class="container-create-elements">
+    <mat-form-field >
+      <mat-label>{{titleSuppliesArray.supply}}</mat-label>
+      <textarea  name="supply" [(ngModel)]="supply" matInput placeholder="Ex: Music, Location, Dish, etc..." required></textarea>
+    </mat-form-field>
+
+    <div>
+      <mat-form-field>
+        <mat-label>{{titleSuppliesArray.price}}</mat-label>
+        <input name="price" [(ngModel)]="price" matInput  type="number" >
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>{{titleSuppliesArray.unit}}</mat-label>
+        <input matInput name="unit" [(ngModel)]="unit" type="number" >
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field>
+        <mat-label>{{titleSuppliesArray.payed}}</mat-label>
+          <input matInput name="payed" [(ngModel)]="payed" type="number" >
+      </mat-form-field>
+         <div class="supply-confirmed-box">
+           <div>Confirmed</div>
+           <mat-checkbox [checked]="confirmed" name="Confirmed" [(ngModel)]="confirmed" ></mat-checkbox>
+         </div>
+    </div>
+
+    <mat-form-field>
+      <mat-label>{{titleSuppliesArray.observation}}</mat-label>
+        <textarea  name="observation" [(ngModel)]="observation" matInput></textarea>
+    </mat-form-field>
+
+    <div class="create-guest-buttons">
+      <button mat-raised-button class="create-cancel-button field-with-margin" mat-dialog-close>CANCEL</button>
+      <button mat-raised-button class="create-submit-button field-with-margin" mat-dialog-close (click)="onSubmit()" >SUBMIT</button>
+    </div>
+  </form>
+</div>

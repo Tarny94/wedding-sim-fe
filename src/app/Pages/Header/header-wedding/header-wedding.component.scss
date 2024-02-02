@@ -1,0 +1,44 @@
+.container {
+  background-color: azure;
+  margin-bottom: 15px;
+
+
+  width: 100%;
+  border-bottom: 5px solid darkgrey;
+
+  .header-components{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+    .header-title{
+      font-size: 24px;
+      font-weight: bolder;
+      font-family: "Book Antiqua";
+      color: rgb(34, 12, 64, 0.6);
+    }
+
+    .header-buttons{
+      display: flex;
+      width: 320px;
+      justify-content: space-around;
+      gap: 17px;
+
+      .header-button{
+        cursor: pointer;
+
+        .header-right-icon{
+          font-size: 26px;
+          padding: 10px;
+          &:hover{
+            background-color: whitesmoke;
+            border-radius: 50%;
+            box-shadow: 1px 1px 3px 0;
+          }
+        }
+      }
+    }
+  }
+}

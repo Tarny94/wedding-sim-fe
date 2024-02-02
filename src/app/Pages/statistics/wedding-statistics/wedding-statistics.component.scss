@@ -1,0 +1,43 @@
+
+.statistic-cost-income-container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  align-items: center;
+}
+
+.container{
+  margin-top: 50px;
+}
+
+.progress-bar{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 26px;
+
+  .progress-bar-title{
+    font-weight: bolder;
+    margin-top: 20px;
+  }
+
+  .progress-bar-container{
+    width: 550px;
+  }
+
+  .progress-bar-subtitle{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-family: "Arial Narrow", serif;
+    font-size: 17px;
+  }
+
+  .progress-bar-values{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+}
+
+

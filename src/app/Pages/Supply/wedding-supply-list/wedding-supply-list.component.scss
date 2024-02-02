@@ -1,0 +1,39 @@
+.mat-header-cell {
+  text-align: center !important;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 3% 5%;
+
+  .add-button{
+    font-weight: bolder;
+    background-color: lightskyblue;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .mat-icon{
+    cursor: pointer;
+  }
+
+  .mat-mdc-header-cell{
+    text-align: center;
+  }
+
+  .table-action-icon{
+    text-align: center;
+
+    .header-right-icon{
+      padding: 5px;
+
+      &:hover{
+        background-color: whitesmoke;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+

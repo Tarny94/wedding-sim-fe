@@ -1,0 +1,44 @@
+table {
+  width: 100%;
+}
+
+.table-action-icon{
+  display: flex;
+  justify-content: space-between;
+
+  .header-right-icon{
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover{
+      background-color: whitesmoke;
+      border-radius: 50%;
+    }
+  }
+}
+
+.add-button{
+  font-weight: bolder;
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.show-estimate{
+  background-color: gray;
+}
+
+.mat-mdc-header-cell {
+  text-align: center;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 25%;
+}
