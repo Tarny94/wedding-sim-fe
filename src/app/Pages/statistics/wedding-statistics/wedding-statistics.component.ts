@@ -1,7 +1,7 @@
 import {ChangeDetectorRef, Component, OnInit} from '@angular/core';
-import {GuestService} from "../../guests/guest-service/guest.service";
-import {GuestCalculation, SuppliesCalculation} from "../../../interface/wedding-interfaces";
-import {SuppliesService} from "../../supply/supplies.service";
+import {GuestService} from "../../Guests/guest-service/guest.service";
+import {GuestCalculation, SuppliesCalculation} from "../../../Interface/wedding-interfaces";
+import {SuppliesService} from "../../Supply/supplies.service";
 
 @Component({
   selector: 'app-wedding-statistics',
