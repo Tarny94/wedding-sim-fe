@@ -1,8 +1,8 @@
 import {Component, Inject, OnInit} from '@angular/core';
-import {displayColumnSupplyList} from "../../../constants/const";
+import {displayColumnSupplyList} from "../../../Constants/const";
 import {Store} from "@ngrx/store";
 import {addSupplies, updateSupplies} from "../store/actions/supplies.actions";
-import {Supply} from "../../../interface/wedding-interfaces";
+import {Supply} from "../../../Interface/wedding-interfaces";
 import {MAT_DIALOG_DATA, MatDialogRef} from "@angular/material/dialog";
 import {SuppliesService} from "../supplies.service";
 
