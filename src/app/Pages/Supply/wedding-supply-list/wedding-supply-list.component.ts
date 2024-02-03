@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {displayColumnSupplyList, displayedColumnsArraySupply} from "../../../constants/const";
-import {Supply} from "../../../interface/wedding-interfaces";
+import {displayColumnSupplyList, displayedColumnsArraySupply} from "../../../Constants/const";
+import {Supply} from "../../../Interface/wedding-interfaces";
 import {MatDialog} from "@angular/material/dialog";
 import {
   WeddingCreateEditSuppliesComponent
