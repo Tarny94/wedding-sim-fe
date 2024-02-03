@@ -1,5 +1,5 @@
 import {createAction, props} from "@ngrx/store";
-import {Supply} from "../../../../interface/wedding-interfaces";
+import {Supply} from "../../../../Interface/wedding-interfaces";
 
 
 
