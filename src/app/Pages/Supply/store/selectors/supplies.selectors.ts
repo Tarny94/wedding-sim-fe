@@ -1,7 +1,7 @@
 import {AppState} from "../models/supplies.state";
 import {createSelector} from "@ngrx/store";
 import {SuppliesState} from "../reducers/supplies.reducer";
-import {Supply} from "../../../../interface/wedding-interfaces";
+import {Supply} from "../../../../Interface/wedding-interfaces";
 
 
 export const selectSupplies = (state: AppState) => state.supplies;
