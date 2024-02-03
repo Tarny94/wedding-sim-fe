@@ -1,8 +1,8 @@
 import {Component, Inject} from '@angular/core';
 import {Store} from "@ngrx/store";
-import {SuppliesService} from "../../supply/supplies.service";
+import {SuppliesService} from "../../Supply/supplies.service";
 import {MAT_DIALOG_DATA, MatDialogRef} from "@angular/material/dialog";
-import {removeSupplies} from "../../supply/store/actions/supplies.actions";
+import {removeSupplies} from "../../Supply/store/actions/supplies.actions";
 
 @Component({
   selector: 'app-confirmation-dialog',
