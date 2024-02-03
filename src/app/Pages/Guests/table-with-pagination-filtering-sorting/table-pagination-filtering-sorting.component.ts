@@ -5,7 +5,7 @@ import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {NgIf, TitleCasePipe} from "@angular/common";
-import {displayedColumnsArray, displayedColumnsNameGuestsList} from "../../../constants/const";
+import {displayedColumnsArray, displayedColumnsNameGuestsList} from "../../../Constants/const";
 import {MatIconModule} from "@angular/material/icon";
 import {GuestService} from "../guest-service/guest.service";
 import {MatDialog} from "@angular/material/dialog";
