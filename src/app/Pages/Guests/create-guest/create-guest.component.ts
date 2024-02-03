@@ -1,5 +1,5 @@
 import {Component, Inject, OnInit} from '@angular/core';
-import {INVITED, ZONE} from "../../../constants/const";
+import {INVITED, ZONE} from "../../../Constants/const";
 import {GuestService} from "../../Guests/guest-service/guest.service";
 import {MAT_DIALOG_DATA, MatDialogRef} from "@angular/material/dialog";
 
