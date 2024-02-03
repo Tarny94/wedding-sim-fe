@@ -14,7 +14,7 @@ import {
 } from '../actions/supplies.actions';
 
 
-import {Supply} from "../../../../interface/wedding-interfaces";
+import {Supply} from "../../../../Interface/wedding-interfaces";
 import {state} from "@angular/animations";
 
 export interface SuppliesState {
