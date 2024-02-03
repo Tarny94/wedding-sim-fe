@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {MatDialog} from "@angular/material/dialog";
-import {CreateGuestComponent} from "../../guests/create-guest/create-guest.component";
+import {CreateGuestComponent} from "../../Guests/create-guest/create-guest.component";
 
 @Component({
   selector: 'app-header-wedding',
