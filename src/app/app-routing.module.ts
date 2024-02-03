@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {WeddingSupplyListComponent} from "./pages/supply/wedding-supply-list/wedding-supply-list.component";
-import {WeddingInvitationListComponent} from "./pages/guests/wedding-invitation-list/wedding-invitation-list.component";
-import {WeddingStatisticsComponent} from "./pages/statistics/wedding-statistics/wedding-statistics.component";
+import {WeddingSupplyListComponent} from "./Pages/Supply/wedding-supply-list/wedding-supply-list.component";
+import {WeddingInvitationListComponent} from "./Pages/Guests/wedding-invitation-list/wedding-invitation-list.component";
+import {WeddingStatisticsComponent} from "./Pages/statistics/wedding-statistics/wedding-statistics.component";
 
 const routes: Routes = [
   { path: 'supplies', component: WeddingSupplyListComponent },
