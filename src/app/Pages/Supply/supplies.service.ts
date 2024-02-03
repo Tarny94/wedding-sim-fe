@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 // @ts-ignore
-import {Supply} from "../../interface/wedding-interfaces";
+import {Supply} from "../../Interface/wedding-interfaces";
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
 
